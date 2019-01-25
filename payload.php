@@ -1,21 +1,23 @@
 <?
 $payload = stdClass::__set_state(array(
-   'ref' => 'refs/heads/master',
-   'before' => '7f93ec7e7d2be1ef94f954a80fd20facd046e507',
-   'after' => '8e4c212a59cc841fad1b3fa8d64f73518fb61996',
-   'created' => false,
+   'ref' => 'refs/heads/test',
+   'before' => '0000000000000000000000000000000000000000',
+   'after' => '47b752ba6f9e41a74fe48f6c83f839b8da601401',
+   'created' => true,
    'deleted' => false,
    'forced' => false,
    'base_ref' => NULL,
-   'compare' => 'https://github.com/lilliputten/simple-test/compare/7f93ec7e7d2b...8e4c212a59cc',
-   'commits' => array (/*{{{*/
-    0 => stdClass::__set_state(array(/*{{{*/
-       'id' => '8e4c212a59cc841fad1b3fa8d64f73518fb61996',
-       'tree_id' => '23335d48d97f715065a6b2a812d23f406295e26a',
+   'compare' => 'https://github.com/lilliputten/simple-test/commit/47b752ba6f9e',
+   'commits' =>
+  array (
+    0 =>
+    stdClass::__set_state(array(
+       'id' => '47b752ba6f9e41a74fe48f6c83f839b8da601401',
+       'tree_id' => '3058a231c20e051ca1e4581b35ee35ed90873e5c',
        'distinct' => true,
        'message' => 'Webhook test',
-       'timestamp' => '2019-01-25T19:43:54+03:00',
-       'url' => 'https://github.com/lilliputten/simple-test/commit/8e4c212a59cc841fad1b3fa8d64f73518fb61996',
+       'timestamp' => '2019-01-25T19:54:16+03:00',
+       'url' => 'https://github.com/lilliputten/simple-test/commit/47b752ba6f9e41a74fe48f6c83f839b8da601401',
        'author' =>
       stdClass::__set_state(array(
          'name' => 'lilliputten',
@@ -30,6 +32,8 @@ $payload = stdClass::__set_state(array(
       )),
        'added' =>
       array (
+        0 => 'bitbucket-payload.php',
+        1 => 'github-payload.php',
       ),
        'removed' =>
       array (
@@ -38,15 +42,16 @@ $payload = stdClass::__set_state(array(
       array (
         0 => 'test',
       ),
-    )),/*}}}*/
-  ),/*}}}*/
-   'head_commit' => stdClass::__set_state(array(/*{{{*/
-     'id' => '8e4c212a59cc841fad1b3fa8d64f73518fb61996',
-     'tree_id' => '23335d48d97f715065a6b2a812d23f406295e26a',
+    )),
+  ),
+   'head_commit' =>
+  stdClass::__set_state(array(
+     'id' => '47b752ba6f9e41a74fe48f6c83f839b8da601401',
+     'tree_id' => '3058a231c20e051ca1e4581b35ee35ed90873e5c',
      'distinct' => true,
      'message' => 'Webhook test',
-     'timestamp' => '2019-01-25T19:43:54+03:00',
-     'url' => 'https://github.com/lilliputten/simple-test/commit/8e4c212a59cc841fad1b3fa8d64f73518fb61996',
+     'timestamp' => '2019-01-25T19:54:16+03:00',
+     'url' => 'https://github.com/lilliputten/simple-test/commit/47b752ba6f9e41a74fe48f6c83f839b8da601401',
      'author' =>
     stdClass::__set_state(array(
        'name' => 'lilliputten',
@@ -61,6 +66,8 @@ $payload = stdClass::__set_state(array(
     )),
      'added' =>
     array (
+      0 => 'bitbucket-payload.php',
+      1 => 'github-payload.php',
     ),
      'removed' =>
     array (
@@ -69,8 +76,9 @@ $payload = stdClass::__set_state(array(
     array (
       0 => 'test',
     ),
-  )),/*}}}*/
-   'repository' => stdClass::__set_state(array(/*{{{*/
+  )),
+   'repository' =>
+  stdClass::__set_state(array(
      'id' => 167566751,
      'node_id' => 'MDEwOlJlcG9zaXRvcnkxNjc1NjY3NTE=',
      'name' => 'simple-test',
@@ -140,8 +148,8 @@ $payload = stdClass::__set_state(array(
      'releases_url' => 'https://api.github.com/repos/lilliputten/simple-test/releases{/id}',
      'deployments_url' => 'https://api.github.com/repos/lilliputten/simple-test/deployments',
      'created_at' => 1548429283,
-     'updated_at' => '2019-01-25T16:42:27Z',
-     'pushed_at' => 1548434639,
+     'updated_at' => '2019-01-25T16:44:00Z',
+     'pushed_at' => 1548435268,
      'git_url' => 'git://github.com/lilliputten/simple-test.git',
      'ssh_url' => 'git@github.com:lilliputten/simple-test.git',
      'clone_url' => 'https://github.com/lilliputten/simple-test.git',
@@ -167,12 +175,14 @@ $payload = stdClass::__set_state(array(
      'default_branch' => 'master',
      'stargazers' => 0,
      'master_branch' => 'master',
-  )),/*}}}*/
-   'pusher' => stdClass::__set_state(array(/*{{{*/
+  )),
+   'pusher' =>
+  stdClass::__set_state(array(
      'name' => 'lilliputten',
      'email' => 'lilliputten@yandex.ru',
-  )),/*}}}*/
-   'sender' => stdClass::__set_state(array(/*{{{*/
+  )),
+   'sender' =>
+  stdClass::__set_state(array(
      'login' => 'lilliputten',
      'id' => 6855837,
      'node_id' => 'MDQ6VXNlcjY4NTU4Mzc=',
@@ -191,5 +201,5 @@ $payload = stdClass::__set_state(array(
      'received_events_url' => 'https://api.github.com/users/lilliputten/received_events',
      'type' => 'User',
      'site_admin' => false,
-  )),/*}}}*/
+  )),
 ));
